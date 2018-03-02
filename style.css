@@ -8,3 +8,116 @@ body {
 
 /* FRAMEWORK
  *****************************************************************************/
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1%;
+}
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.row:after {
+  /* Clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* GLOBALS
+ *****************************************************************************/
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER
+ *****************************************************************************/
+header > .row {
+  align-items: center;
+  justify-content: space-between;
+}
+header .left {
+  font-size: 2em;
+  margin-right: auto;
+  text-align: left;
+}
+header .right {
+  margin-left: auto;
+  text-align: right;
+}
+header ul {
+  list-style: none;
+  padding: 0;
+}
+header li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+@media (max-width: 720px) {
+  header > .row {
+    flex-direction: column;
+  }
+  header .left,
+  header .right {
+    margin: 0% auto;
+    text-align: center;
+  }
+  header .left p {
+    margin: 1em 0 0;
+  }
+  header li {
+    margin: 0 0.5em;
+  }
+}
+
+/* FOOTER
+ *****************************************************************************/
+footer {
+  text-align: center;
+}
+
+/* HOME PAGE
+ *****************************************************************************/
+
+/* ABOUT PAGE
+ *****************************************************************************/
+
+/* GALLERY PAGE
+ *****************************************************************************/
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.gallery-item {
+  flex-basis: 31%;
+  margin: 1%;
+}
+.gallery-item img {
+  max-width: 100%;
+}
+
+@media (max-width: 800px) {
+  .gallery-item {
+    flex-basis: 48%;
+  }
+}
+@media (max-width: 480px) {
+  .gallery-item {
+    flex-basis: 100%;
+    margin: 1% 0;
+  }
+}

@@ -9,15 +9,17 @@ body {
 /* FRAMEWORK
  *****************************************************************************/
 .container {
+  /* Squeezes content into center of page regardless of screen size */
   margin: 0 auto;
   max-width: 1200px;
+  /* Keep content away from edge of screen */
   padding: 1%;
 }
 .row {
   display: flex;
   flex-flow: row nowrap;
 }
-.row:after {
+.row::after {
   /* Clearfix */
   content: "";
   display: table;
@@ -91,7 +93,33 @@ footer {
 
 /* HOME PAGE
  *****************************************************************************/
-
+#home-hero-section {
+  /* Set the background to our dog. */
+  background-image: url('home-hero-bg.jpg');
+  /* Center the image 25% from the top of the left side. */
+  background-position: left 25%;
+  /* Make sure the background covers the entire section. */
+  background-size: cover;
+  /* Make sure the section has some height even with no content */
+  min-height: 400px;
+  /* Center anything in this section horizontally and vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home-hero-section .row {
+  /* Make the content flow vertically */
+  flex-flow: column;
+  /* Squeeze it more than the container normally would */
+  max-width: 800px;
+}
+#home-hero-section h1,
+#home-hero-section p {
+  color: white;
+}
+#home-hero-section p {
+  font-size: 20px;
+}
 /* ABOUT PAGE
  *****************************************************************************/
 

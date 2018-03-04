@@ -1,0 +1,67 @@
+.para{
+	text-align: left;
+	display: block;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	/*position: static;*/
+	padding: 0 300px;
+	font-size: 14px;
+	color: grey;
+}
+
+#whoarewe h2 { 
+	text-align: center; 
+	padding: 0 300px;
+	/*position: absolute;*/
+}
+
+strong{
+	font-size: 45px;
+	color: olivedrab;
+	/*position: static;*/
+	margin: 0;
+	padding: 0;
+}
+
+.snav{
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: -1;
+	top: 80px;
+	right: 0;
+	padding: 20px;
+}
+.sidenav a{
+	color: green;
+	position: inline;
+}
+ul{
+	list-style-type: none;
+}
+
+li{
+	margin: 10px 0;
+}
+
+/* Images at bottom*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 480px;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}

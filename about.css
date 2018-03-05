@@ -46,6 +46,7 @@ li {
 }
 
 
+
 /* Images at bottom*/
 
 div.gallery {
@@ -79,4 +80,42 @@ div.desc {
 .staff-member {
     flex-basis: 33%;
     text-align: center;
+}
+
+.staff-member img {
+    width: 90%;
+    height: auto;
+}
+
+#meetus h2 {
+    text-align: center;
+    padding: 0 300px;
+    font-size: 40px
+}
+
+.Staff .container,
+#contact .container {
+    max-width: 900px;
+}
+
+.Staff h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#directions-blurb .blurb-content{ 
+color: grey;
+font-size: 15px
+}
+#newsletter-blurb { 
+margin-left: auto; 
+
+}
+#newsletter-blurb button{
+	color: white;
+	background-color: #f3b328;
+	border: none;
+	padding: .5em .8em;
+}
+
 }

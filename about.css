@@ -1,122 +1,135 @@
 .para {
-    text-align: left;
-    display: block;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    /*position: static;*/
-    padding: 0 300px;
-    font-size: 14px;
-    color: grey;
+  text-align: left;
+  display: block;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  /*position: static;*/
+  padding: 0 300px;
+  font-size: 14px;
+  color: grey;
 }
 
 #whoarewe h2 {
-    text-align: center;
-    padding: 0 300px;
-    font-size: 40px
-    /*position: absolute;*/
+  text-align: center;
+  padding: 0 300px;
+  font-size: 40px;
+  /*position: absolute;*/
 }
 
 strong {
-    font-size: 45px;
-    color: olivedrab;
-    /*position: static;*/
-    margin: 0;
-    padding: 0;
+  font-size: 45px;
+  color: olivedrab;
+  /*position: static;*/
+  margin: 0;
+  padding: 0;
 }
 
 .snav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    top: 80px;
-    right: 0;
-    padding: 20px;
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  top: 197px;
+  right: 0;
+  padding: 20px;
+}
+.snav.fixed {
+  position: fixed;
+  top: 80px;
 }
 
-.sidenav a {
-    color: green;
-    position: inline;
+#sidenav a {
+  color: green;
+  position: inline;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-
-
 
 /* Images at bottom*/
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    height: auto;
-    padding: 15px;
-    display: inline-block;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: auto;
+  padding: 15px;
+  display: inline-block;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+  border: 1px solid #777;
 }
 
 div.gallery img {
-    width: 240px;
-    height: 240px;
-    padding: 15px;
-    display: inline-block;
+  width: 240px;
+  height: 240px;
+  padding: 15px;
+  display: inline-block;
 }
 
 div.desc {
-    padding: 15px;
-    text-align: center;
-    color: grey;
-    font-size: 10px;
+  padding: 15px;
+  text-align: center;
+  color: grey;
+  font-size: 10px;
 }
 
 .staff-member {
-    flex-basis: 33%;
-    text-align: center;
+  flex-basis: 33%;
+  text-align: center;
 }
 
 .staff-member img {
-    width: 90%;
-    height: auto;
+  width: 90%;
+  height: auto;
 }
 
 #meetus h2 {
-    text-align: center;
-    padding: 0 300px;
-    font-size: 40px
+  text-align: center;
+  padding: 0 300px;
+  font-size: 40px;
 }
 
-.Staff .container,
+#staff.container,
 #contact .container {
-    max-width: 900px;
+  max-width: 900px;
 }
 
-.Staff h2 {
-    text-align: center;
-    font-size: 40px;
+#staff h2 {
+  text-align: center;
+  font-size: 40px;
 }
 
+<<<<<<< HEAD
 #directions-blurb .blurb-content{ 
 color: grey;
 font-size: 18px;
 font-style: oblique;
+=======
+#directions-blurb .blurb-content {
+  color: grey;
+  font-size: 15px;
+>>>>>>> 7ef3eebb4457accba060c4f2e59f5df75322491a
 }
-#newsletter-blurb { 
-margin-left: auto; 
-
+#newsletter-blurb {
+  margin-left: auto;
 }
+<<<<<<< HEAD
 #newsletter-blurb button{
 	color: white;
 	background-color: #f3b328;
 	border: none;
 	padding: .5em 2em;
-}
-
+=======
+#newsletter-blurb button {
+  color: white;
+  background-color: #f3b328;
+  border: none;
+  padding: 0.5em 0.8em;
+>>>>>>> 7ef3eebb4457accba060c4f2e59f5df75322491a
 }

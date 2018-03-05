@@ -114,6 +114,10 @@ footer {
   max-width: 800px;
 }
 #home-hero-section h1,
+#home-hero-section h1 {
+  text-align: right;
+  color: white;
+}
 #home-hero-section p {
   color: white;
 }

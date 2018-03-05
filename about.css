@@ -1,48 +1,50 @@
-.para{
-	text-align: left;
-	display: block;
-	font-family: "Roboto", Arial, Helvetica, sans-serif;
-	/*position: static;*/
-	padding: 0 300px;
-	font-size: 14px;
-	color: grey;
+.para {
+    text-align: left;
+    display: block;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    /*position: static;*/
+    padding: 0 300px;
+    font-size: 14px;
+    color: grey;
 }
 
-#whoarewe h2 { 
-	text-align: center; 
-	padding: 0 300px;
-	font-size: 40px
-	/*position: absolute;*/
+#whoarewe h2 {
+    text-align: center;
+    padding: 0 300px;
+    font-size: 40px
+    /*position: absolute;*/
 }
 
-strong{
-	font-size: 45px;
-	color: olivedrab;
-	/*position: static;*/
-	margin: 0;
-	padding: 0;
+strong {
+    font-size: 45px;
+    color: olivedrab;
+    /*position: static;*/
+    margin: 0;
+    padding: 0;
 }
 
-.snav{
-	height: 100%;
-	width: 160px;
-	position: fixed;
-	z-index: -1;
-	top: 80px;
-	right: 0;
-	padding: 20px;
-}
-.sidenav a{
-	color: green;
-	position: inline;
-}
-ul{
-	list-style-type: none;
+.snav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    padding: 20px;
 }
 
-li{
-	margin: 10px 0;
+.sidenav a {
+    color: green;
+    position: inline;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
 
 /* Images at bottom*/
 
@@ -70,7 +72,11 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    color: grey;
+    font-size: 10px;
 }
-.staff{
 
+.staff-member {
+    flex-basis: 33%;
+    text-align: center;
 }

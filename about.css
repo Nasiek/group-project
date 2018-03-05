@@ -105,7 +105,8 @@ div.desc {
 
 #directions-blurb .blurb-content{ 
 color: grey;
-font-size: 15px
+font-size: 18px;
+font-style: oblique;
 }
 #newsletter-blurb { 
 margin-left: auto; 
@@ -115,7 +116,7 @@ margin-left: auto;
 	color: white;
 	background-color: #f3b328;
 	border: none;
-	padding: .5em .8em;
+	padding: .5em 2em;
 }
 
 }
